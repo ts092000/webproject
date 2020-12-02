@@ -1,0 +1,249 @@
+.btnclass{
+	color:white;
+	background-color:green;
+	width:150px;
+	height:40px;
+	font-size:20px;
+}
+.formclass{
+	width: 660px;
+	background-color: white;
+}
+.headerclass{
+	color:red;
+	font-size:20px;
+}
+body, html {
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url("class.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+* {
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "segoe ui", roboto, oxygen, ubuntu, cantarell, "fira sans", "droid sans", "helvetica neue", Arial, sans-serif;
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+}
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+.btnlogin {
+  background-color: green;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+.btnregis {
+  background-color: red;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+.btnlogin:hover {
+  opacity: 1;
+}
+.formlogin{
+	position: relative; 
+	top:383px;
+	width: 400px;
+	height: 500px;
+	background-color: white;
+	opacity: 0.95;
+}
+hr {
+	 border:1px dashed #97b8ef;
+}
+.tdlogin{
+	text-align: center;
+}
+.formhomepage{
+	background-color: white;
+	width: 500px;
+	border: dashed 1px #97b8ef; 
+	text-align: left;	
+	position: relative; 
+}
+.form{
+	position: relative; 
+	top:383px; 
+	left:769px; 
+	width: 400px; 
+	height: 300px; 
+	background-color: white; 
+	opacity: 0.95;
+	font-color: #8e1b0e;
+	size: +2;
+}
+.tbuser{
+	background-color:white;
+}
+.inputclass{
+	color:red;
+	width:400px;
+	margin-top:3px;
+	margin-bottom:3px;
+}
+
+a.lk_a1{text-decoration:none;color:blue;}
+a.lk_a1:hover{color:red;}
+table.tb_a1 tr.a_1 {height:30px;}
+table.tb_a1 tr.a_1:hover {background:#FFFF99;}
+table.tb_a1 {background-color:white;}
+.lk_a1{margin-left:10px;}
+.img_link{width:100px;margin-top:10px;margin-bottom:10px;}
+.fixclass{color:blue;font-size:20px;}
+.inputupdate{color:red;width:400px;margin-top:3px;margin-bottom:3px;}
+.imgupdate{width:180px;}
+.turnback{color: white;}
+.navtop {
+    background-color: #3f69a8;
+    height: 60px;
+    width: 100%;
+    border: 0;
+}
+.navtop div {
+    display: flex;
+    margin: 0 auto;
+    width: 1000px;
+    height: 100%;
+}
+.navtop div h1, .navtop div a {
+    display: inline-flex;
+    align-items: center;
+}
+.navtop div h1 {
+    flex: 1;
+    font-size: 24px;
+    padding: 0;
+    margin: 0;
+    color: #ecf0f6;
+    font-weight: normal;
+}
+.navtop div a {
+    padding: 0 20px;
+    text-decoration: none;
+    color: #c5d2e5;
+    font-weight: bold;
+}
+.navtop div a i {
+    padding: 2px 8px 0 0;
+}
+.navtop div a:hover {
+    color: #ecf0f6;
+}
+.content {
+    width: 95%;
+    margin: 0 auto;
+}
+.content h2 {
+    margin: 0;
+    padding: 25px 0;
+    font-size: 22px;
+    border-bottom: 1px solid #ebebeb;
+    color: #666666;
+}
+.comments{
+	background-color: white;
+	width: 100%;
+}
+.comments .comment_header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #eee;
+    padding: 15px 0;
+    margin-bottom: 10px;
+    align-items: center;
+}
+.comments .comment_header .total {
+    color: #777777;
+    font-size: 14px;
+}
+.comments .comment_header .write_comment_btn {
+    margin: 0;
+}
+.comments .write_comment_btn, .comments .write_comment button {
+    display: inline-block;
+    background-color: #565656;
+    color: #fff;
+    text-decoration: none;
+    margin: 10px 0 0 0;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 600;
+    border: 0;
+}
+.comments .write_comment_btn:hover, .comments .write_comment button:hover {
+    background-color: #636363;
+}
+.comments .write_comment {
+    display: none;
+    padding: 20px 0 10px 0;
+}
+.comments .write_comment textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    height: 150px;
+    margin-top: 10px;
+}
+.comments .write_comment input {
+    display: block;
+    width: 250px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.comments .write_comment button {
+    cursor: pointer;
+}
+.comments .comment {
+    padding-top: 10px;
+}
+.comments .comment .name {
+    display: inline;
+    padding: 0 5px 3px 0;
+    margin: 0;
+    font-size: 16px;
+    color: #555555;
+}
+.comments .comment .date {
+    color: #888888;
+    font-size: 14px;
+}
+.comments .comment .content {
+    padding: 5px 0 5px 0;
+	background-color: white;
+}
+.comments .comment .reply_comment_btn {
+    display: inline-block;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #888888;
+}
+.comments .comment .replies {
+    padding-left: 30px;
+}
